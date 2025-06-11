@@ -22,7 +22,7 @@ return [
     'form' => [
 
         'email' => [
-            'label' => '電子郵件地址',
+            'label' => '電子郵件',
         ],
 
         'password' => [
