@@ -1,4 +1,4 @@
-# Laravel 11 Filament 註冊時指派一個角色
+# Laravel 12 Filament 註冊時指派一個角色
 
 Filament 註冊時指派一個角色採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，可讓管理人員根據正當的理由，將相關資源的存取權限授予給合適的使用者。
 
@@ -17,17 +17,9 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
-- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移，並執行資料庫填充（如果要測試的話）。
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
 ```sh
-$ php artisan migrate --seed
-```
-- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
-```sh
-$ npm install
-```
-- 執行正式環境版本化資源管道並編譯。
-```sh
-$ npm run build
+$ php artisan migrate
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/admin/register` 來進行註冊。
@@ -35,5 +27,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/larHe8f.png)
+![](https://i.imgur.com/pMJ12Tu.png)
 > 建立使用者並指派一個角色
